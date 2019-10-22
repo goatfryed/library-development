@@ -1,11 +1,12 @@
 import React from 'react';
+import * as webpackNumbers from '@library-development/webpack-author-libraries';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Just a simple react app
+          webpack-author-libraries: {webpackNumbers.numToWord(2)}
         </p>
       </header>
     </div>

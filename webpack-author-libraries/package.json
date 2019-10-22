@@ -1,0 +1,17 @@
+{
+  "name": "@library-development/webpack-author-libraries",
+  "version": "1.0.0",
+  "description": "A library build with webpack as per [webpack-documentation](https://webpack.js.org/guides/author-libraries/)",
+  "main": "dist/webpack-numbers.js",
+  "scripts": {
+    "watch": "webpack --watch --mode=\"development\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.15",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
