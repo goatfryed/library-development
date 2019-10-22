@@ -25,7 +25,7 @@ module.exports = {
         ],
     },
     externals: {
-        lodash: {
+        react: {
             commonjs: 'react',
             commonjs2: 'react',
             amd: 'react',
