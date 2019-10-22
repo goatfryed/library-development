@@ -1,5 +1,8 @@
 import React from 'react';
 import * as webpackNumbers from '@library-development/webpack-author-libraries';
+import * as reactComponentLib from '@library-development/webpack-react-lib';
+
+console.log(reactComponentLib);
 
 function App() {
   return (
