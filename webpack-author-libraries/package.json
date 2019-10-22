@@ -1,5 +1,5 @@
 {
-  "name": "webpack-author-libraries",
+  "name": "@library-development/webpack-author-libraries",
   "version": "1.0.0",
   "description": "A library build with webpack as per [webpack-documentation](https://webpack.js.org/guides/author-libraries/)",
   "main": "dist/webpack-numbers.js",
