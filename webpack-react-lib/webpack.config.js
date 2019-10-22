@@ -8,6 +8,22 @@ module.exports = {
         library: 'webpackReactLibrary.js',
         libraryTarget: 'umd',
     },
+    module: {
+        rules: [
+            {
+                test: /\.(js|jsx)/,
+                use: [
+                    {
+                        loader: "babel-loader",
+                        options: {
+                            presets: ["@babel-preset-env", "@babel/preset-react"]
+                        },
+                    },
+                ],
+                include: path.resolve(__dirname, "src"),
+            }
+        ],
+    },
     externals: {
         lodash: {
             commonjs: 'react',
