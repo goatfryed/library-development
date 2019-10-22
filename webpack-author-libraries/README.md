@@ -1,0 +1,1 @@
+A library build with webpack as per [webpack-documentation](https://webpack.js.org/guides/author-libraries/)
