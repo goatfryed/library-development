@@ -9,3 +9,4 @@ cd "$DIR"/webpack-react-lib && npm link
 # link libraries to consumers
 cd "$DIR"/react-app-consumer && npm run link
 cd "$DIR"/plain-webpack-consumer && npm run link
+cd "$DIR"/nosymlink-webpack-consumer && npm run link

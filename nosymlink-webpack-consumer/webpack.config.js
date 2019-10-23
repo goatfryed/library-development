@@ -32,6 +32,9 @@ module.exports = {
             template: 'src/index.html',
         }),
     ],
+    resolve: {
+        symlinks: false,
+    },
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
