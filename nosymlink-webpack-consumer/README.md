@@ -1,0 +1,1 @@
+Consumer app bundled with simple self defined webpack script based on a sample project I experienced issues with.
